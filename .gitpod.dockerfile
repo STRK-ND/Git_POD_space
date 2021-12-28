@@ -8,5 +8,5 @@ USER root
 RUN echo Welcome to xyz Workspace Zone
 
 # Dependency
-RUN apt update && apt upgrade -y
 RUN git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh
+RUN apt update && apt upgrade -y
